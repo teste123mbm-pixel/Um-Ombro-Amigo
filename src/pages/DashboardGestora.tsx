@@ -550,7 +550,7 @@ export default function DashboardGestora() {
               />
 
               <div>
-                <p className="text-sm font-medium mb-2">Motivo da recusa (opcional):</p>
+                <p className="text-sm font-medium mb-2">Motivo da recusa:</p>
                 <Textarea
                   placeholder="Informe o motivo caso vá recusar a solicitação..."
                   value={rejectionReason}
