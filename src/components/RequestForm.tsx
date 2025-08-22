@@ -166,7 +166,7 @@ export function RequestForm() {
               name="requesterName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Nome do Solicitante</FormLabel>
+                  <FormLabel>Funcionário</FormLabel>
                   <FormControl>
                     <Input placeholder="Digite o nome completo" {...field} />
                   </FormControl>
@@ -205,11 +205,11 @@ export function RequestForm() {
               name="polo"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Polo</FormLabel>
+                  <FormLabel>Site</FormLabel>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
                       <SelectTrigger>
-                        <SelectValue placeholder="Selecione o polo" />
+                        <SelectValue placeholder="Selecione o site" />
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
